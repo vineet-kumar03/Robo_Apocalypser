@@ -18,6 +18,7 @@ namespace ROBOT_Apocalypse.Controllers
             _robotService = robotService;
         }
 
+        [Route("GetAllRobots")]
         [HttpGet]
         public IList<RobotInfo> GetAllRobots()
         {
