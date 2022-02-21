@@ -42,8 +42,10 @@ How to Run Application
                 PRIMARY KEY CLUSTERED ([Id] ASC)
             );
             
-  Step 3.       Clone the repository to your local machine and build  it with vs2019
+  Step 3.       Clone the repository to your local machine and build  it with vs2019.
+  
   Step 4.       Run Scaffold-DbContext command given below in package manager console
+  
                 Scaffold-DbContext "<<Your Db connection string>>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -f
                          where <<Your Db connection string>> would be your connection string
                  This command will create the entities classes for you tables in Models folder of DAL layer.
