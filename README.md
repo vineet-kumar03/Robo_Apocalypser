@@ -54,7 +54,7 @@ How to Run Application
   
   step 5.      Run  application using VS2019
   
-  step 6.      Swagger page would be display which conatins documentation of all required apis.
+  step 6.      Swagger page would be display which conatins documentation of all required apis. This UI page can be used to test the api as well.
   
   
   
