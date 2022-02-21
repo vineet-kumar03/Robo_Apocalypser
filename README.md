@@ -6,17 +6,23 @@ Created as once friendly robots, have now turned against humankind, especially s
 Their mission is to transform everyone into mindless zombies for their entertainment.
 This application implement the REST API for following 
 
-  •To add survivors to the database
-  •To update survivor location
-  •To flag survivor as infected
-  •To connect to the Robot CPU system to get List of robots
+  •To add survivors to the database. 
+  
+  •To update survivor location.
+  
+  •To flag survivor as infected.
+  
+  •To connect to the Robot CPU system to get List of robots.
      
 API also provide the following information:
 
 • Percentage of infected survivors.
+
 • Percentage of non-infected survivors.
-• List of infected survivors
-• List of non-infected survivors
+
+• List of infected survivors.
+
+• List of non-infected survivors.
 
 How to Run Application
   
