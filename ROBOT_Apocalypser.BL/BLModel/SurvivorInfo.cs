@@ -16,7 +16,6 @@ namespace ROBOT_Apocalypse.BL.BLModel
         public string SurvivorId { get; set; }
         public string LocationLat { get; set; }
         public string LocationLong { get; set; }
-        public bool IsInfected { get; set; }
 
         public  ICollection<InventoryInfo> Inventories { get; set; }
     }
