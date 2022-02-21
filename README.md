@@ -10,7 +10,8 @@ How to Run Application
   Setp 1. Create Database(name like Robot_Apocalypser) to you sql server
   Step 2. Create  tables Survivor, Inventory and SurvivorContamination using the scripts given below- 
       2.a  
-                 CREATE TABLE [dbo].[Survivor] (
+               
+               CREATE TABLE [dbo].[Survivor] (
             [Id]           INT            IDENTITY (1, 1) NOT NULL,
             [Name]         NVARCHAR (250) NOT NULL,
             [Age]          INT            NOT NULL,
