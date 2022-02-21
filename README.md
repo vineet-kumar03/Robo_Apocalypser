@@ -1,9 +1,22 @@
 # Robo_Apocalypser
 
-ROBOT apocalypse
+ROBOT apocalypse:
 The year is 2050 and the world as we know it has been taken over by robots.
 Created as once friendly robots, have now turned against humankind, especially software engineers like yourself.
 Their mission is to transform everyone into mindless zombies for their entertainment.
+This application implement the REST API for following 
+
+  •To add survivors to the database
+  •To update survivor location
+  •To flag survivor as infected
+  •To connect to the Robot CPU system to get List of robots
+     
+API also provide the following information:
+
+• Percentage of infected survivors.
+• Percentage of non-infected survivors.
+• List of infected survivors
+• List of non-infected survivors
 
 How to Run Application
   
