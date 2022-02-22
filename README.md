@@ -26,7 +26,8 @@ API also provide the following information:
 
 How to Run Application
   
-  Setp 1. Create Database(name like Robot_Apocalypser) to you sql server
+  Setp 1. Create Database(name like Robot_Apocalypser) to your sql server.
+  
   Step 2. Create  tables Survivor, Inventory and SurvivorContamination using the scripts given below- 
       2.a  
                
@@ -66,7 +67,8 @@ How to Run Application
   Step 4.       Run Scaffold-DbContext command given below in package manager console
   
                 Scaffold-DbContext "<<Your Db connection string>>" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -f
-                         where <<Your Db connection string>> would be your connection string
+                         -where <<Your Db connection string>> would be your connection string
+                         
                  This command will create the entities classes for you tables in Models folder of DAL layer.
                  While running this command please make sure "ROBOT_Apocalypser_DAL" should be selected as default project in package manager console
          
